@@ -51,5 +51,19 @@
             android:text="Recycler Activity로 이동하기"
             android:onClick="@{()->viewModel.clickGoToRecyclerActivity()}"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="TEST"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practice Recycler Activity로 이동하기"
+            android:onClick="@{()->viewModel.clickGoToPracticeRecyclerActivity()}"/>
+
     </LinearLayout>
 </layout>

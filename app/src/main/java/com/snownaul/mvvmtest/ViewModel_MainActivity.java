@@ -56,4 +56,8 @@ public class ViewModel_MainActivity implements BaseViewModel {
     public void clickGoToRecyclerActivity(){
         MoveActivity.goToRecyclerActivity();
     }
+
+    public void clickGoToPracticeRecyclerActivity(){
+        MoveActivity.goToPracticeRecyclerActivity();
+    }
 }

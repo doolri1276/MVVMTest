@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".InputActivity" />
         <activity android:name=".list_view.ListActivity" />
-        <activity android:name=".recycler_view.RecyclerActivity"></activity>
+        <activity android:name=".recycler_view.RecyclerActivity" />
+        <activity android:name=".practice_recycler_view.PracticeRecyclerActivity"></activity>
     </application>
 
 </manifest>

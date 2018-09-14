@@ -3,6 +3,7 @@ package com.snownaul.mvvmtest;
 import android.content.Intent;
 
 import com.snownaul.mvvmtest.list_view.ListActivity;
+import com.snownaul.mvvmtest.practice_recycler_view.PracticeRecyclerActivity;
 import com.snownaul.mvvmtest.recycler_view.RecyclerActivity;
 
 import androidx.core.content.ContextCompat;
@@ -27,4 +28,9 @@ public class MoveActivity {
         ContextCompat.startActivity(App.getInstance(), intent, null);
     }
 
+    public static void goToPracticeRecyclerActivity(){
+        Intent intent = new Intent(App.getInstance(), PracticeRecyclerActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        ContextCompat.startActivity(App.getInstance(), intent, null);
+    }
 }
